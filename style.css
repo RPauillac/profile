@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(29, 27, 27);
+    background-size: cover;
     font-family: 'Lora', serif;
     font-size: 30px;
     font-weight: lighter;
@@ -12,8 +12,19 @@ body {
 .text-center {
   text-align: center;
 }
-.card {
-  background: rgb(31, 30, 30);
+.card1 {
+  background: rgb(31, 30, 30, 0.7);
+  padding: 30px;
+  border: 0.01px solid rgb(20, 20, 20);
+  margin: 30px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 5px 2px 15px 1.5px rgb(20, 20, 20);
+
+}
+
+.card2 {
+  background: rgb(31, 30, 30, 0.3);
   padding: 30px;
   border: 0.01px solid rgb(20, 20, 20);
   margin: 30px;
@@ -25,7 +36,7 @@ body {
 
 .container {
   width: 700px;   /* This sets the width */
-  margin: 40px auto; /* This automatically sets left/right margins */
+  margin: 200px right; /* This automatically sets left/right margins */
 }
 
 h1 {
@@ -49,11 +60,13 @@ p {
 }
 
 a:hover {
-  color: purple
+  color: purple;
+  box-shadow: 2px 2px 5px 2px rgb(78, 71, 71);
 }
 
 a {
-  color: red
+  color: red;
+  box-shadow: 2px 2px 5px 2px rgb(43, 40, 40);
 }
 
 .list >li {
@@ -90,7 +103,7 @@ a {
   background-color: red;
   border: 0.5px grey;
   border-radius: 20px;
-  box-shadow: 2px 2px 5px 2px rgb(63, 60, 60);
+  box-shadow: 2px 2px 5px 2px rgb(44, 36, 36);
   width: 100px;
   padding: 10px;
   color: rgb(32, 30, 30);
@@ -99,5 +112,6 @@ a {
 
 .Youtube:hover {
   background-color: purple;
-  color: rgb(32, 30, 30)
+  color: rgb(32, 30, 30);
+  box-shadow: 2px 2px 5px 2px rgb(68, 63, 63);
 }
